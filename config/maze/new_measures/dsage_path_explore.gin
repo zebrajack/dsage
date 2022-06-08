@@ -1,0 +1,6 @@
+# Configuration for DSAGE Path-Exploration.
+
+include "config/maze/dsage.gin"
+include "config/maze/new_measures/path_explore_base.gin"
+
+experiment.name = "DSAGE Path-Exploration"

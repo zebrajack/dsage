@@ -1,0 +1,3 @@
+[submodule "external/seaborn"]
+	path = external/seaborn
+	url = git@github.com:mwaskom/seaborn.git

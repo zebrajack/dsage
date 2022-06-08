@@ -1,0 +1,16 @@
+# Base config for coins collected, enemies killed measures.
+
+MarioManager.n_evals = 5
+
+MarioConfig.measure_names = [
+  "calc_coins_collected", # Coins.
+  "calc_enemies_killed", # Enemies killed.
+]
+MarioConfig.aggregation_type = "mean"
+
+GridArchive.dims = [25, 25]
+# Ends up mapping to [0, 24] for coins and [0, 24] for enemies.
+GridArchive.ranges = [[0, 25], [0, 25]]
+
+downsample/GridArchive.dims = [5, 5]
+downsample/GridArchive.ranges = [[0, 25], [0, 25]]

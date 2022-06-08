@@ -1,0 +1,6 @@
+# Configuration for DSAGE Jumps-Coins.
+
+include "config/mario/dsage.gin"
+include "config/mario/new_measures/jumps_coins_base.gin"
+
+experiment.name = "DSAGE Jumps-Coins"

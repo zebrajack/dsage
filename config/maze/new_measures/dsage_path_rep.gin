@@ -1,0 +1,6 @@
+# Configuration for DSAGE Path-Repetition.
+
+include "config/maze/dsage.gin"
+include "config/maze/new_measures/path_rep_base.gin"
+
+experiment.name = "DSAGE Path-Repetition"

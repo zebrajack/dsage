@@ -1,0 +1,6 @@
+# Configuration for DSAGE Coins-Enemies.
+
+include "config/mario/dsage.gin"
+include "config/mario/new_measures/coins_enemies_base.gin"
+
+experiment.name = "DSAGE Coins-Enemies"

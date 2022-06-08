@@ -1,0 +1,6 @@
+# Configuration for DSAGE Sky-Coins.
+
+include "config/mario/dsage.gin"
+include "config/mario/new_measures/sky_coins_base.gin"
+
+experiment.name = "DSAGE Sky-Coins"

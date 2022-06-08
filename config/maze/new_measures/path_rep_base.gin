@@ -1,0 +1,10 @@
+# Base configuration for path length and repetition measures.
+
+MazeConfig.objective_name = "accel_none"
+MazeConfig.measure_names = ["agent_path_length", "n_repeated_cells"]
+
+GridArchive.dims = [162, 162]
+GridArchive.ranges = [[0, 648], [0, 648]]
+
+downsample/GridArchive.dims = [27, 27]
+downsample/GridArchive.ranges = [[0, 648], [0, 648]]
