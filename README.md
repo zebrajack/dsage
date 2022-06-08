@@ -209,6 +209,12 @@ make test
 
 ## Reproducing Paper Results
 
+Our paper uses a pre-trained ACCEL agent that is currently not public. Hence, train an
+ACCEL agent and copy the saved model to `src/maze/agents/saved_models`. The configs assume
+the path to be `src/maze/agents/saved_models/accel_seed_1/model_20000.tar` (set in
+`config/maze/accel_base.gin`), but can be changed to any path inside the saved models
+folder.
+
 The `config/` directory contains the config files required to run the
 experiments shown in the paper. Below is a brief description of each config:
 
